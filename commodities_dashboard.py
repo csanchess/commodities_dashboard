@@ -47,15 +47,18 @@ commodities = {
     "Ethylene (proxy)": "ETHUSD=X",
 }
 
-# FX pairs for conversions (yfinance tickers)
+# FX pairs (Yahoo Finance tickers)
+# Note: All tickers are USD-based pairs where possible. If the inverse pair is used, conversion is handled automatically later.
 currencies = {
-    "USD/BRL": "USDBRL=X",
-    "EUR/USD": "EURUSD=X",
-    "GBP/USD": "GBPUSD=X",
-    "USD/CNY": "USDCNY=X",
-    "USD/JPY": "USDJPY=X",
-    "USD/NOK": "USDNOK=X",
-    "USD/CHF": "USDCHF=X",
+    "GBP/USD": "GBPUSD=X",     # USD per GBP
+    "EUR/USD": "EURUSD=X",     # USD per EUR
+    "USD/BRL": "USDBRL=X",     # BRL per USD
+    "USD/CNY": "USDCNY=X",     # CNY per USD (RMB)
+    "USD/JPY": "USDJPY=X",     # JPY per USD
+    "USD/NOK": "USDNOK=X",     # NOK per USD
+    "USD/CAD": "USDCAD=X",     # CAD per USD
+    "USD/AUD": "AUDUSD=X",     # Yahoo only provides AUDUSD, so invert
+    "USD/CHF": "USDCHF=X",     # CHF per USD
 }
 
 # Compliance carbon markets (mix of yfinance tickers and placeholders)

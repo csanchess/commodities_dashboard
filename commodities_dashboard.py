@@ -58,7 +58,7 @@ currencies = {
     "USD/NOK": "USDNOK=X",     # NOK per USD
     "USD/CAD": "USDCAD=X",     # CAD per USD
     "USD/AUD": "AUDUSD=X",     # Yahoo only provides AUDUSD, so invert
-    "USD/CHF": "USDCHF=X",     # CHF per USD
+    "CHF/USD": "CHFUSD=X",     # USD per CHF
 }
 
 # Compliance carbon markets (mix of yfinance tickers and placeholders)
